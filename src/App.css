@@ -4,7 +4,7 @@
   position: fixed;
   background: linear-gradient(to right, #141614, #141614);
   font-family: "Arial Black", Gadget, sans-serif;
-
+  top:1.5vw;
 };
 
 .Nav{
@@ -163,15 +163,16 @@ height: 50vw;
 }
 .img-section5{
  position: absolute;
- background-color: aquamarine;
+
  z-index: 100;
- width: 20vw;
+ width: 200vw;
  height: 20vw;
+ top:134.05vw
   
 }
 .text{
   position: absolute;
-  background: pink;
+  /* background: pink; */
   top:155vw;
   height: 20vw;
   width: 100%;
@@ -180,7 +181,7 @@ height: 50vw;
   
 }
 .shop-coffe{
-  position: absolute;;
+  position: absolute;
   border-radius: 100vw;
   height: 20vw;
   width: 20vw;
@@ -188,7 +189,7 @@ height: 50vw;
 }
 
 .shop-tea{
-  position: absolute;;
+  position: absolute;
   border-radius: 100vw;
   height: 20vw;
   width: 20vw;
@@ -198,12 +199,13 @@ height: 50vw;
 .shop-equipment{
   position: absolute;
   width: 20vw;
-  margin-left: 74vw
+  margin-left: 74vw;
+ 
 
 }
 
 .coffee-div{
-  background-color: #036635;
+  /* background-color: #036635; */
   width: 15vw;
   margin-left:4vw;
 
@@ -211,27 +213,176 @@ height: 50vw;
 }
 .coffe-h3{
   font-family: "Arial Black", Gadget, sans-serif;
+ 
 }
 
 .tea-div{
-  background-color: #036635;
+  /* background-color: #036635; */
   width: 15vw;
   margin-left:3vw;
+  
 }
+
 
 .equipment-div{
-  background-color: #036635;
+  /* background-color: #036635; */
   width: 15vw;
 }
+.equipment-h3{
+ position:absolute;
 
-/* .section6{
+}
+
+.equipment-p{
+  position:absolute;
+ 
+ top:8vw
+ 
+}
+ .section6{
   position: absolute;
   width: 100%;
-  height: 20vw;
+  height: 40vw;
   width: 100%;
-  background-color:grey;
+  background-color:rgba(170, 162, 162, 0.425);
+  top:170vw;
 
-} */
+}  
+
+.help-div{
+  position: absolute;
+  width: 15vw;
+  margin-left:12vw;
+
+  
+}
+.hepl-div{
+
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.company-div{
+  
+    position: absolute;
+    width: 15vw;
+    margin-left:45vw;
+
+  }
+
+  .about-div{
+  
+    position: absolute;
+    width: 15vw;
+    margin-left:11vw;
+    top:25vw;
+  }
+
+  .share-div{
+    position: absolute;
+    width: 15vw;
+    margin-left:77vw;
+  
+  }
+
+  .facebook{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top:1vw;
+    
+   
+  }
+  .instagram{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top:-1vw;
+    margin-left:2.5vw
+
+  }
+  .linkdin{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top:-3vw;
+    margin-left:5.3vw;
+
+  }
+  .twitter{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top:-5vw;
+    margin-left:7.9vw;
+
+  }
+  .pinterest{
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    top:-7vw;
+    margin-left:10.5vw
+
+  }
+
+ .section7{
+  position: absolute;
+  width: 100%;
+  height: 10vw;
+  width: 100%;
+  background-color: black;
+  top:210vw;
+ }
+.chester-p{
+  position: absolute;
+  color:white;
+  height: 7vw;
+  width: 8vw;
+  top:2vw;
+ 
+  margin-left:9vw;
+ 
+}
+.stubucks-p{
+  position: absolute;
+  color:white;
+  height: 7vw;
+  width: 25vw;
+  top:2vw;
+  
+  margin-left:65vw;
+}
+.dan-p{
+  position: absolute;
+  color:white;
+  height: 7vw;
+  width: 70vw;
+  margin-left:15vw;
+   top:3.9vw;
+   text-align: right
+}
+.top{
+  position: fixed;
+  background-color: orange;
+  z-index: 500;
+  width: 100%;
+  height: 1.5vw;
+}
+.free{
+  position:fixed;
+  z-index: 500;
+  width: 80%;
+  background-color: whitesmoke
+
+}
+
+.find{
+ position:fixed;
+ z-index: 500;
+ width: 30%;
+ background-color: #036635;
+ margin-left:75vw
+}
 
 
 
